@@ -3,7 +3,7 @@
 Parrot App ist eine Anwendung, die es älteren und einsamen Menschen ermöglicht, 
 mit einer AI per Nachrichten und Anrufen zu kommunizieren, um Einsamkeit zu reduzieren. 
 Die App verwendet moderne KI-Technologien, um menschenähnliche Unterhaltungen zu führen
-und Benutzern Gesellschaft zu leisten.
+und Benutzern Gesellschaft zu leisten. Derzeit befindet sich die APP noch im aufbau. 
 
 ## Inhaltsverzeichnis
 
