@@ -1,0 +1,24 @@
+meta {
+  name: Send Message
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3001/messages
+  body: json
+  auth: none
+}
+
+headers {
+  Authorization: Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+}
+
+body:json {
+  {
+      "from": "605c72ef1c4ae1473d3f4f3a",  // Ersetze dies durch eine echte User ID
+      "to": "605c72ef1c4ae1473d3f4f3b",    // Ersetze dies durch eine echte User ID
+      "content": "Hello, this is a test message"
+  }
+  
+}

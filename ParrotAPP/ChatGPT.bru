@@ -1,0 +1,18 @@
+meta {
+  name: ChatGPT
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:3001/chat
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "message": "Hallo, wie geht es dir?"
+  }
+  
+}
